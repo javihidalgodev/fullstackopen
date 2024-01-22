@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #121212;
+  --secondary-color: #363636;
+  --variant-color: #f90;
+  --text-color: #f1f1f1;
+}
+
+body {
+  background-color: #121212;
+  color: var(--text-color);
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+}
+
+#directory-app {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input span {
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+.input input {
+  padding: 10px 5px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#add-btn {
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--variant-color);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+.delete-btn {
+  color: #fff;
+  background-color: #d10;
+  border: none;
+  margin-left: 5px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
