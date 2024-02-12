@@ -1,0 +1,8 @@
+POST http://localhost:2024/api/entries
+Content-Type: application/json
+
+{
+    "author": "Asimov",
+    "title": "Yo, robot",
+    "url": "987654321"
+}

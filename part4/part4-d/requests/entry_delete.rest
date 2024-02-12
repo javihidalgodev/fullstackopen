@@ -1,0 +1,8 @@
+//admin token = forbbiden
+
+# DELETE http://localhost:2024/api/entries/65be85a3335fbc982cb3ced9
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI2NWJkMmQwMGVlY2FhNDE4YWRlNmU0N2EiLCJpYXQiOjE3MDY5ODUzNDV9.EN-9nMqA1_OxQUWyGRJCkTs7CDTzr4T7_u0bPzV4R_c
+
+//jhidalgodev token = ok
+DELETE http://localhost:2024/api/entries/65be85a3335fbc982cb3ced9
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpoaWRhbGdvZGV2IiwiaWQiOiI2NWJlODI3MGY1ODFkYTliMGMyMzc4ZTEiLCJpYXQiOjE3MDY5ODQ3NTV9.2Bw7CIdm7VnKpM_B6mnApeRPuNVY214cn_Ggj-qN06E

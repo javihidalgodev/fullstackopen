@@ -1,0 +1,23 @@
+POST http://localhost:2024/api/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "adminpassword"
+}
+
+# POST http://localhost:2024/api/login
+# Content-Type: application/json
+
+# {
+#   "username": "jhidalgodev",
+#   "password": "jhidalgodevpass"
+# }
+
+# POST http://localhost:2024/api/login
+# Content-Type: application/json
+
+# {
+#   "username": "root",
+#   "password": "rootpassword"
+# }

@@ -1,0 +1,21 @@
+//jhidalgodev token
+POST http://localhost:2024/api/entries
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpoaWRhbGdvZGV2IiwiaWQiOiI2NWJlODI3MGY1ODFkYTliMGMyMzc4ZTEiLCJpYXQiOjE3MDY5ODQ3NTV9.2Bw7CIdm7VnKpM_B6mnApeRPuNVY214cn_Ggj-qN06E
+
+{
+    "author": "Asimov",
+    "title": "Yo, robot",
+    "url": "987654321"
+}
+
+//admin token
+# POST http://localhost:2024/api/entries
+# Content-Type: application/json
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI2NWJkMmQwMGVlY2FhNDE4YWRlNmU0N2EiLCJpYXQiOjE3MDY5ODUzNDV9.EN-9nMqA1_OxQUWyGRJCkTs7CDTzr4T7_u0bPzV4R_c
+
+# {
+#     "author": "Robin Sharma",
+#     "title": "El monje que vendió su ferrari",
+#     "url": "https://www.amazon.es/monje-que-vendi%C3%B3-Ferrari-CLAVE/dp/8499087124"
+# }
